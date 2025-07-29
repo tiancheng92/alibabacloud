@@ -19,7 +19,7 @@ package internalinterfaces
 
 import (
 	versioned "github.com/tiancheng92/alibabacloud/v1/clientset/versioned"
-
+	"time"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"

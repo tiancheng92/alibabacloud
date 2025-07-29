@@ -20,7 +20,7 @@ package versioned
 import (
 	"fmt"
 	alibabacloudv1 "github.com/tiancheng92/alibabacloud/v1/clientset/versioned/typed/alibabacloud/v1"
-
+	"net/http"
 
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
