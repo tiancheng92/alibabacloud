@@ -21,16 +21,13 @@ import (
 	versioned "github.com/tiancheng92/alibabacloud/v1/clientset/versioned"
 	alibabacloud "github.com/tiancheng92/alibabacloud/v1/informers/externalversions/alibabacloud"
 	internalinterfaces "github.com/tiancheng92/alibabacloud/v1/informers/externalversions/internalinterfaces"
-	reflect "reflect"
-	sync "sync"
-	time "time"
-
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v
-
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
+	reflect "reflect"
+	sync "sync"
+	time "time"
 )
 
 // SharedInformerOption defines the functional option type for SharedInformerFactory.
